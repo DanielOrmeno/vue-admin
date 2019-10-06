@@ -4,7 +4,7 @@
       <v-btn
         v-bind="buttonProps"
         :name="name"
-        @click="onEdit()"
+        @click.stop="onEdit()"
         icon
         v-on="on"
       >
